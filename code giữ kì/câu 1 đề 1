@@ -1,0 +1,31 @@
+a = float(input("Nhập a: "))
+b = float(input("Nhập b: "))
+c = float(input("Nhập c: "))
+
+max = max(a, b, c)
+min = min(a, b, c)
+print("Số lớn nhất:", max)
+print("Số nhỏ nhất:", min)
+
+# phương trình
+if a == 0:
+    if b == 0:
+        if c == 0:
+            print("Phương trình vô số nghiệm")
+        else:
+            print("Phương trình vô nghiệm")
+    else:
+        x = -c / b
+        print("Phương trình có nghiệm x =", x)
+else:
+    pt= b**2 - 4*a*c
+    if pt > 0:
+        x1 = (-b + (pt)) / (2*a)
+        x2 = (-b - (pt)) / (2*a)
+        print(":")
+        print("x1 =", x1)
+        print("x2 =", x2)
+    elif pt == 0:
+        x = -b / (2*a)
+        print(" phương trình có 2 nghiệm ", x)
+    
