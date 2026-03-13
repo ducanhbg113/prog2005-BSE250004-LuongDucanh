@@ -1,0 +1,15 @@
+print("nhập số a")
+a = float(input())
+print("nhập số b")
+b = float(input())
+lta,ltb =a**2,b**2
+print("lũy thừa của a",a)
+print("lũy thừa của b",b)
+cba,cbb =a**0.5 , b**0.5
+print("căn bậc 2 của a",a)
+print("căn bậc 2 cẩu b",b)
+chianguyen = (a//b)
+lamtrona,lamtronb = round(a) , round(b)
+print("chia nguyên",chianguyen)
+chiadu =(a%b)
+print("chia dư",chiadu)
