@@ -1,0 +1,5 @@
+name = input("nhapten")
+name = name.strip()
+name = " ".join(name.split())
+name = name.title()
+print(name)

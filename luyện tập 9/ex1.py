@@ -1,0 +1,5 @@
+cannang = float(input("nhập cân nặng của bạn vào đây"))
+chieucao = float(input("nhập chiều cao của bạn vào đây"))
+BMI = cannang / (chieucao * chieucao)
+lamtron= round(BMI,2)
+print("BMI CUA BAN =",lamtron)
