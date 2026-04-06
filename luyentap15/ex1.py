@@ -1,0 +1,6 @@
+A = int(input("nhập số a="))
+B = int (input("nhập số b="))
+print ("tổng =",A+B)
+print ("hiệu =",A-B)
+print("thương=",A/B)
+print("tích=",A*B)
